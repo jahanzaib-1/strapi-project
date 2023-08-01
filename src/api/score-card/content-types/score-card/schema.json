@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "score_cards",
+  "info": {
+    "singularName": "score-card",
+    "pluralName": "score-cards",
+    "displayName": "Score Card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "required": true
+    },
+    "ScoreItems": {
+      "displayName": "Score Card Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "score.score-card-item"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cta.cta"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_score_score_card_items",
+  "info": {
+    "displayName": "Score Card Item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Content": {
+      "type": "text",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
