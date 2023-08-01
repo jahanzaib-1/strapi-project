@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_logo_with_url_logo_with_urls",
+  "info": {
+    "displayName": "LogoWithUrl"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
