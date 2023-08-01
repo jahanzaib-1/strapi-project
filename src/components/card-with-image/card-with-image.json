@@ -1,7 +1,8 @@
 {
   "collectionName": "components_card_with_image_card_with_images",
   "info": {
-    "displayName": "CardWithImage"
+    "displayName": "CardWithImage",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,15 +14,15 @@
       "type": "richtext",
       "required": true
     },
-    "Icon": {
-      "allowedTypes": [
-        "images"
-      ],
+    "Image": {
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     },
-    "Cta": {
+    "CTA": {
       "type": "component",
       "repeatable": false,
       "component": "cta.cta"

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_hero_cards",
+  "info": {
+    "singularName": "contact-hero-card",
+    "pluralName": "contact-hero-cards",
+    "displayName": "Contact Hero Card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card-with-image.card-with-image"
+    }
+  }
+}

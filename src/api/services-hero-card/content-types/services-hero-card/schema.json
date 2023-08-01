@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_hero_cards",
+  "info": {
+    "singularName": "services-hero-card",
+    "pluralName": "services-hero-cards",
+    "displayName": "Services Hero Card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card-with-image.card-with-image"
+    }
+  }
+}

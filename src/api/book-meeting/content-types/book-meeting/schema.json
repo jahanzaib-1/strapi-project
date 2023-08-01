@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "book_meetings",
+  "info": {
+    "singularName": "book-meeting",
+    "pluralName": "book-meetings",
+    "displayName": "BookMeeting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "Message": {
+      "type": "richtext",
+      "maxLength": 1000
+    }
+  }
+}

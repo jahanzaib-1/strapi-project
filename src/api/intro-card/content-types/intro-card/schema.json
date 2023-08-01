@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "intro_cards",
+  "info": {
+    "singularName": "intro-card",
+    "pluralName": "intro-cards",
+    "displayName": "Intro Card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "questionAnswers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-with-image.card-with-image"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_information_cards",
+  "info": {
+    "singularName": "contact-information-card",
+    "pluralName": "contact-information-cards",
+    "displayName": "Contact Information Card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "technicalEmail": {
+      "type": "string"
+    },
+    "PressMediaEmail": {
+      "type": "string"
+    },
+    "AnythingElseEmail": {
+      "type": "string"
+    },
+    "Instagram": {
+      "type": "string"
+    },
+    "Twitter": {
+      "type": "string"
+    },
+    "Facebook": {
+      "type": "string"
+    },
+    "Linkedin": {
+      "type": "string"
+    }
+  }
+}

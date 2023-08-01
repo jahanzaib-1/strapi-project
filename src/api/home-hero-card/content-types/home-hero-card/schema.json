@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_hero_cards",
+  "info": {
+    "singularName": "home-hero-card",
+    "pluralName": "home-hero-cards",
+    "displayName": "Home Hero Card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card-with-image.card-with-image"
+    }
+  }
+}

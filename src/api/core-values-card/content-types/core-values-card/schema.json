@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "core_values_cards",
+  "info": {
+    "singularName": "core-values-card",
+    "pluralName": "core-values-cards",
+    "displayName": "Core Values Card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-with-image.card-with-image"
+    }
+  }
+}

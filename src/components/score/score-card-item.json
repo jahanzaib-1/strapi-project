@@ -10,13 +10,13 @@
       "type": "text",
       "required": true
     },
-    "icon": {
-      "allowedTypes": [
-        "images"
-      ],
+    "Icon": {
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

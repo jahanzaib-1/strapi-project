@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "hear_more_cards",
+  "info": {
+    "singularName": "hear-more-card",
+    "pluralName": "hear-more-cards",
+    "displayName": "Hear More Card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "quotes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::quote.quote"
+    }
+  }
+}
