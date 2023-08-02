@@ -20,6 +20,35 @@
       "type": "component",
       "repeatable": false,
       "component": "card-with-image.card-with-image"
+    },
+    "IntroHeading": {
+      "type": "string",
+      "required": true,
+      "default": "We're building the future ecosystem for your cryptocurrency"
+    },
+    "IntroDescription": {
+      "type": "richtext",
+      "default": "lorem ipsum dolor sit amet consectetuer adipiscing elit",
+      "required": true
+    },
+    "IntroQuestionAnswers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-with-image.card-with-image"
+    },
+    "MissionStatement": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card-with-image.card-with-image"
+    },
+    "CoreValuesHeading": {
+      "type": "string",
+      "default": "Our Core Values"
+    },
+    "CoreValuesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-with-image.card-with-image"
     }
   }
 }

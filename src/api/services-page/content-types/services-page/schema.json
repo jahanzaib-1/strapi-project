@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_pages",
+  "info": {
+    "singularName": "services-page",
+    "pluralName": "services-pages",
+    "displayName": "Services Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageTitle": {
+      "type": "string",
+      "default": "Services"
+    },
+    "HeroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card-with-image.card-with-image"
+    },
+    "ServiceItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card-with-image.card-with-image",
+      "required": true,
+      "max": 4
+    }
+  }
+}

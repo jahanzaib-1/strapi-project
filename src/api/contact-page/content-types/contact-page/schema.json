@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "PageTitle": {
+      "type": "string",
+      "default": "Contact"
+    },
+    "HeroSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card-with-image.card-with-image"
+    },
+    "BookMeetingCta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.cta"
+    },
+    "ContactInfoTitle": {
+      "type": "string",
+      "default": "Contact Information"
+    },
+    "technicalEmail": {
+      "type": "string",
+      "default": "Technical questions -- help@bechain.com"
+    },
+    "PressMediaEmail": {
+      "type": "string",
+      "default": "Press & media -- help@bechain.com"
+    },
+    "AnythingElseEmail": {
+      "type": "string",
+      "default": "Anything else -- help@bechain.com"
+    },
+    "Instagram": {
+      "type": "string",
+      "default": "Instagram -- @bechain"
+    },
+    "Twitter": {
+      "type": "string",
+      "default": "Twitter -- @bechain"
+    },
+    "Facebook": {
+      "type": "string",
+      "default": "Facebook -- @bechain"
+    },
+    "Linkedin": {
+      "type": "string",
+      "default": "Linkedin -- @bechain"
+    }
+  }
+}
