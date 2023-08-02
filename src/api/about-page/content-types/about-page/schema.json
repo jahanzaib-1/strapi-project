@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "home_hero_cards",
+  "collectionName": "about_pages",
   "info": {
-    "singularName": "home-hero-card",
-    "pluralName": "home-hero-cards",
-    "displayName": "Home Hero Card",
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page",
     "description": ""
   },
   "options": {
@@ -12,6 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "PageTitle": {
+      "type": "string",
+      "default": "About"
+    },
     "HeroSection": {
       "type": "component",
       "repeatable": false,

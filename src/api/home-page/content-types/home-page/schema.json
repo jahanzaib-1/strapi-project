@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "quotes",
+  "kind": "singleType",
+  "collectionName": "home_pages",
   "info": {
-    "singularName": "quote",
-    "pluralName": "quotes",
-    "displayName": "Quote",
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
     "description": ""
   },
   "options": {
@@ -16,42 +16,17 @@
     }
   },
   "attributes": {
-    "Content": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text",
-      "required": true
-    },
-    "Author": {
+    "PageTitle": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "string",
+      "default": "Home",
       "required": true
     },
-    "Company": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
-    "Icon": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
-    "CTA": {
+    "HeroSection": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -59,7 +34,28 @@
           "localized": true
         }
       },
-      "component": "cta.cta"
+      "component": "card-with-image.card-with-image",
+      "required": true
+    },
+    "LatestArticleCopy": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "cta.cta-with-heading"
+    },
+    "BrowseArticleCopy": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "cta.cta-with-heading"
     }
   }
 }

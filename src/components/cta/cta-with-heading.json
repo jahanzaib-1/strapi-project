@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_cta_cta_with_headings",
+  "info": {
+    "displayName": "ctaWithHeading"
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "CTA": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cta.cta"
+    }
+  }
+}
